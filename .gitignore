@@ -1,0 +1,23 @@
+# Datos persistentes de Pi-hole (no versionar)
+etc-pihole/
+etc-dnsmasq.d/
+
+# Archivos de entorno / secretos
+.env
+*.env
+
+# Logs y temporales
+*.log
+log/
+logs/
+tmp/
+*.tmp
+
+# Archivos de editor / sistema
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
